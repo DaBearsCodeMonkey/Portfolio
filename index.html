@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<title>My Portfolio</title>
+		<meta charset="UTF-8">
+		<meta http-equiv="X-UA-Compatible" content="IE=edge">
+		<meta name=viewport content="width=device-width, initial-scale=1">
+		<link rel="stylesheet" href="css/bootstrap.min.css">
+		<link rel="stylesheet" href="css/custom.css">
+		<link href='http://fonts.googleapis.com/css?family=Indie+Flower' rel='stylesheet'>
+		<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.11.2/jquery.min.js"></script>
+		<script src="js/bootstrap.min.js"></script>
+	</head>
+
+	<body>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-6">
+					<img src="images/bears.jpg" class="img-responsive" id="space" alt="Chicago Bears logo">
+				</div>
+				<div class="col-md-6 text-right ">
+					<h1>Carlos Carrillo</h1>
+					<h3>Front-end Ninja Web Developer</h3>
+				</div>
+			</div>
+			<div class="row">
+				<hr class="style">
+			</div>
+			<div class="row">
+				<img src="images/languages.jpg" class="img-responsive" alt="Computer languages">
+			</div>
+			<div class="row">
+				<div class="col-md-12">
+					<h2>Featured Work:</h2>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 text-center">
+					<img src="images/python.jpg" class="img-responsive" data-toggle="modal" data-target="#project1" alt="Python logo">
+					<h3>Python Fresh tomatoes</h3>
+					<p>
+						<a href="http://github.com" target="_blank">Link to project</a>
+					</p>
+				</div>
+
+				<div class="col-md-6 text-center">
+					<img src="images/cplusplus.jpg" class="img-responsive" data-toggle="modal" data-target="#project2" alt="C plus plus">
+					<h3>C++ Mancala</h3>
+					<p>
+						<a href="http://github.com" target="_blank">Link to project</a>
+					</p>
+				</div>
+			</div>
+			<div class="row">
+				<div class="col-md-6 text-center">
+					<img src="images/jquery.png" class="img-responsive" data-toggle="modal" data-target="#project3" alt="jQuery">
+					<h3>Interactive Resume (Bootstrap/jQuery)</h3>
+					<p>
+						<a href="http://github.com" target="_blank">Link to project</a>
+					</p>
+					</div>
+				<div class="col-md-6 text-center">
+					<img src="http://placehold.it/555x300" alt="" class="img-responsive">
+					<h3>Project is currently being built...</h3>
+					<p>
+						<a href="http://github.com" target="_blank">Link to project</a>
+					</p>
+				</div>
+			</div>
+		</div>
+				<!-- Modal Python -->
+		<div class="modal fade" id="project1" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		    <div class="modal-dialog">
+		    	<div class="modal-content">
+		        	<div class="modal-header">
+		            	<h4 class="modal-title text-center" id="myModalLabel">Fresh Tomatoes</h4>
+		      		</div>
+		      		<div class="modal-body">
+		        		<img class="img-responsive" src="images/python.jpg" alt="Python logo">
+				        This was my first major side project that I've completed where I wrote server side code to create a web application. A simple fun application that shows my favorite movies and movie trailers. Technologies utilized:
+				        HTML, CSS (Twitter-bootstrap framework), JavaScript (jQuery Framework), and Python.
+		      		</div>
+		      		<div class="modal-footer">
+		        		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      		</div>
+		    	</div>
+		  	</div>
+		</div>
+				<!-- Modal Mancala -->
+		<div class="modal fade" id="project2" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		    <div class="modal-dialog">
+		    	<div class="modal-content">
+		      		<div class="modal-header">
+		        		<h4 class="modal-title text-center" id="myModalLabel2">Mancala</h4>
+		      		</div>
+		      		<div class="modal-body">
+		        		<img class="img-responsive" src="images/cplusplus.jpg" alt="C plus plus">
+		        		This was one of my most memorable school projects. It was the most challenging and ultimately was the
+		        		reason I stuck it out with computer science. Mancala is an old African board game where the goal is to
+		        		have the most rocks in your slot. We were not allowed to use any object oriented C++ programming.
+		        		We also had to make a linked list to have the ability to undo moves using C Structs.
+		      		</div>
+		      		<div class="modal-footer">
+		        		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      		</div>
+		    	</div>
+		    </div>
+		</div>
+				<!-- Modal Mancala -->
+		<div class="modal fade" id="project3" tabindex="-1" role="dialog" aria-labelledby="myModalLabel" aria-hidden="true">
+		    <div class="modal-dialog">
+		    	<div class="modal-content">
+		      		<div class="modal-header">
+		        		<h4 class="modal-title text-center" id="myModalLabel3">My Resume</h4>
+		      		</div>
+		      		<div class="modal-body">
+		        		<img class="img-responsive" src="images/jquery.png" alt="jQuery">
+		        		Probably the most exciting and fun project I've had yet. It was challenging but I completed it without
+		        		a problem. Utilizes HTML, CSS(Twitter-bootstrap), and JavaScript (jQuery).
+		      		</div>
+		      		<div class="modal-footer">
+		        		<button type="button" class="btn btn-default" data-dismiss="modal">Close</button>
+		      		</div>
+		    	</div>
+		    </div>
+		</div>
+	</body>
+</html>
